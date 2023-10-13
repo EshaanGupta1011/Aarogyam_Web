@@ -1,0 +1,116 @@
+/* Main layout */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+/* General  */
+
+.flex {
+  display: flex;
+}
+
+.primary-heading {
+  font-size: 4.8rem;
+}
+
+.secondary-heading {
+  font-size: 2.4rem;
+}
+
+.btn {
+  padding: 0.8rem;
+  border-radius: 1.6rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+/* Logo */
+
+.aarogyam_logo {
+  width: 8.6rem;
+}
+
+.logo-align {
+  text-align: center;
+}
+
+/* Header */
+
+.nav-flex {
+  justify-content: center;
+  align-items: center;
+  padding: 3.2rem;
+}
+
+.nav-section {
+  flex-direction: row;
+  gap: 8.6rem;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-links-text {
+  color: #008000;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.nav-links-text:hover {
+  color: #003300;
+}
+
+.header-btn {
+  background-color: #008000;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.header-btn:hover {
+  background-color: #003300;
+}
+
+/* Section Hero */
+
+.hero {
+  background-image: url("../public/Main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.hero-heading {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-secondary-heading,
+.hero-primary-heading {
+  color: #008000;
+}
+
+/* Section Features */
+
+.section-features {
+  padding: 6.4rem;
+  /*Temporary, just to check  */
+}
