@@ -1,3 +1,11 @@
 green
   shade
       #d3f9d8 #008000
+
+Blue
+  shade
+    #1e3888
+
+Brown
+  shade
+      #e8e7e3
