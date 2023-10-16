@@ -103,3 +103,40 @@
   border: 0.5rem solid #1e3888;
   border-radius: 50%;
 }
+
+/* Section Features */
+
+.section-features {
+  padding: 6.4rem;
+}
+
+.features-secondary-heading {
+  text-align: center;
+}
+
+.features-grid {
+  padding-top: 6.4rem;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+}
+
+.features-flex {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.features-img {
+  width: 18rem;
+  height: auto;
+  background-color: #1e39882a;
+  border-radius: 6.4rem;
+  padding: 1.6rem;
+}
+
+.features-text {
+  padding: 6.4rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
